@@ -1,3 +1,194 @@
-.class{
-    color: blue;
+
+/* Footer */
+.footer {
+    background-color: #FFF0F5;
+    color: #555;
+    padding: 50px 0 15px;
+}
+
+/* Brand */
+.footer-brand h2 {
+    color: #E96F9A;
+    font-family: cursive;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.footer-brand p {
+    color: #E96F9A;
+    font-size: 11px;
+    letter-spacing: 4px;
+    margin-left: 40px;
+}
+
+.footer-tagline {
+    color: #E96F9A;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+/* Column headings */
+.footer h5 {
+    color: #E96F9A;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+/* Links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #E96F9A;
+}
+
+/* Social links */
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.social-links a {
+    background-color: #E96F9A;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #D94F82;
+}
+
+/* Slogan */
+.footer-slogan {
+    color: #E96F9A;
+    font-family: cursive;
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+/* Copyright */
+.footer-bottom {
+    border-top: 1px solid #F2C9D8;
+    margin-top: 35px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #B57C93;
+    font-size: 12px;
+    margin: 0;
+}
+
+
+
+/* Services Section */
+.services-section {
+    background-color: #FFFFFF;
+    padding: 80px 0;
+}
+
+/* Heading */
+.services-heading {
+    margin-bottom: 45px;
+}
+
+.services-subtitle {
+    color: #E96F9A;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+.services-heading h2 {
+    color: #49313B;
+    font-size: clamp(30px, 4vw, 42px);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.services-description {
+    color: #777777;
+    font-size: 15px;
+}
+
+/* Service Cards */
+.service-card {
+    height: 100%;
+    padding: 30px 22px;
+    text-align: center;
+    background-color: #FFF7FA;
+    border: 1px solid #F8DFE8;
+    border-radius: 22px;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(233, 111, 154, 0.15);
+}
+
+/* Icon */
+.service-icon {
+    width: 68px;
+    height: 68px;
+    margin: 0 auto 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCE2EB;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+/* Card Title */
+.service-card h3 {
+    color: #49313B;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* Card Description */
+.service-card p {
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+
+/* Learn More Link */
+.service-link {
+    color: #DE628D;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.service-link:hover {
+    color: #B9406D;
 }
